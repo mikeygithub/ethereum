@@ -1,0 +1,16 @@
+{
+  "name": "simple-vote-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.8.1",
+    "solc": "^0.4.22",
+    "web3": "^0.20.1"
+  }
+}

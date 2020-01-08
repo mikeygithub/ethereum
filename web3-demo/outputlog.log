@@ -1,0 +1,42 @@
+INFO [01-06|22:31:18.175] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [01-06|22:31:18.175] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [01-06|22:31:18.177] Starting peer-to-peer node               instance=Geth/v1.9.10-unstable-3bb6815f-20191225/linux-amd64/go1.13.5
+INFO [01-06|22:31:18.177] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [01-06|22:31:18.177] Allocated cache and file handles         database=/home/mikey/DATA/DevTools/ETH_DATA/data1/geth/chaindata cache=512.00MiB handles=524288
+INFO [01-06|22:31:18.599] Opened ancient database                  database=/home/mikey/DATA/DevTools/ETH_DATA/data1/geth/chaindata/ancient
+INFO [01-06|22:31:18.601] Initialised chain configuration          config="{ChainID: 1 Homestead: <nil> DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil> Byzantium: <nil> Constantinople: <nil> Petersburg: <nil> Istanbul: <nil>, Muir Glacier: <nil>, Engine: unknown}"
+INFO [01-06|22:31:18.601] Disk storage enabled for ethash caches   dir=/home/mikey/DATA/DevTools/ETH_DATA/data1/geth/ethash count=3
+INFO [01-06|22:31:18.601] Disk storage enabled for ethash DAGs     dir=/home/mikey/.ethash count=2
+INFO [01-06|22:31:18.601] Initialising Ethereum protocol           versions="[64 63]" network=1 dbversion=7
+INFO [01-06|22:31:18.603] Loaded most recent local header          number=144 hash=d52a6c…23576b td=19502118 age=11h20m30s
+INFO [01-06|22:31:18.603] Loaded most recent local full block      number=144 hash=d52a6c…23576b td=19502118 age=11h20m30s
+INFO [01-06|22:31:18.603] Loaded most recent local fast block      number=144 hash=d52a6c…23576b td=19502118 age=11h20m30s
+INFO [01-06|22:31:18.605] Setting new local account                address=0x8f1E5BF5c6951b16072859e080301629E6c048C7
+INFO [01-06|22:31:18.605] Loaded local transaction journal         transactions=1 dropped=0
+INFO [01-06|22:31:18.606] Regenerated local transaction journal    transactions=1 accounts=1
+WARN [01-06|22:31:18.606] Switch sync mode from fast sync to full sync 
+INFO [01-06|22:31:19.108] Mapped network port                      proto=tcp extport=30303 intport=30303 interface=NAT-PMP(192.168.2.1)
+INFO [01-06|22:31:19.116] Mapped network port                      proto=udp extport=30303 intport=30303 interface=NAT-PMP(192.168.2.1)
+INFO [01-06|22:31:19.116] New local node record                    seq=7 id=85aa4382222a6575 ip=172.31.8.208 udp=30303 tcp=30303
+INFO [01-06|22:31:19.118] Started P2P networking                   self=enode://96adf903e7893e6aeaf454cb1f91c8e50da2987494e66ad6eb1f5f7dc3aa7caef9dcdc44b8cb70590a13ef5cf9f55fe014ed13354ac26ed72cdf34f545375482@172.31.8.208:30303
+INFO [01-06|22:31:19.122] IPC endpoint opened                      url=/home/mikey/DATA/DevTools/ETH_DATA/data1/geth.ipc
+INFO [01-06|22:31:19.123] HTTP endpoint opened                     url=http://127.0.0.1:8545 cors= vhosts=localhost
+INFO [01-06|22:31:19.204] Etherbase automatically configured       address=0xBCaf3765a1a607231bE1BbF96290412154dD6e30
+WARN [01-06|22:31:25.066] Served eth_getBalance                    conn=127.0.0.1:43130 reqid=2 t=95.087µs err="missing trie node d8a023eee15a00f91ec06ffea348b9faf30c61604cf7f9ec2c8d17f0f5cbf054 (path )"
+WARN [01-06|22:31:33.760] Served eth_getBalance                    conn=127.0.0.1:43240 reqid=2 t=96.869µs err="missing trie node 857c8ea050b10dbe8d04b6a9df73422277316dd18f528d3ab1835d5c34094dde (path )"
+WARN [01-06|22:34:15.955] Served eth_estimateGas                   conn=127.0.0.1:45694 reqid=3 t=39.864µs err="invalid argument 0: json: cannot unmarshal hex string of odd length into Go struct field CallArgs.data of type hexutil.Bytes"
+WARN [01-06|22:36:10.394] Served eth_sendTransaction               conn=127.0.0.1:47478 reqid=3 t=1.974711ms err="authentication needed: password or unlock"
+WARN [01-06|22:52:36.927] Served personal_unlockAccount            reqid=10 t=109.724µs  err="account unlock with HTTP access is forbidden"
+WARN [01-06|22:53:18.715] Served personal_unlockAccount            reqid=12 t=74.681µs   err="account unlock with HTTP access is forbidden"
+INFO [01-06|22:53:30.552] HTTP endpoint closed                     url=http://127.0.0.1:8545
+INFO [01-06|22:53:30.553] IPC endpoint closed                      url=/home/mikey/DATA/DevTools/ETH_DATA/data1/geth.ipc
+INFO [01-06|22:53:30.553] Writing cached state to disk             block=144 hash=d52a6c…23576b root=d44eec…70ee06
+INFO [01-06|22:53:30.553] Persisted trie from memory database      nodes=0 size=0.00B time=7.661µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [01-06|22:53:30.553] Writing cached state to disk             block=143 hash=5ebe6d…fbe32c root=22844f…2a4613
+INFO [01-06|22:53:30.553] Persisted trie from memory database      nodes=0 size=0.00B time=3.547µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [01-06|22:53:30.554] Writing cached state to disk             block=17  hash=2e1bf6…a741e3 root=377367…378afe
+INFO [01-06|22:53:30.554] Persisted trie from memory database      nodes=0 size=0.00B time=6.221µs gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [01-06|22:53:30.554] Blockchain manager stopped 
+INFO [01-06|22:53:30.554] Stopping Ethereum protocol 
+INFO [01-06|22:53:30.555] Ethereum protocol stopped 
+INFO [01-06|22:53:30.555] Transaction pool stopped 
